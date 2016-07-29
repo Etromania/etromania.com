@@ -1,0 +1,37 @@
+{
+  "name": "etromania.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --content-base src/",
+    "build": "rimraf dist && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Etromania/etromania.com.git"
+  },
+  "author": "Kyle Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Etromania/etromania.com/issues"
+  },
+  "homepage": "https://github.com/Etromania/etromania.com#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.23.1",
+    "elm-webpack-loader": "^3.0.3",
+    "eslint": "^3.1.1",
+    "eslint-config-google": "^0.6.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.22.0",
+    "node-sass": "^3.8.0",
+    "postcss-loader": "^0.9.1",
+    "rimraf": "^2.5.4",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
