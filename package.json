@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot --inline --content-base src/",
-    "build": "rimraf dist && webpack"
+    "build": "npm install && rimraf dist && webpack"
   },
   "repository": {
     "type": "git",
